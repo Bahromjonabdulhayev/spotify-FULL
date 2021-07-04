@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style-type: none;
+}
+
+section {
+  width: 100vw;
+  height: 1576px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+section .wrapper {
+  width: 450px;
+  height: 1350px;
+}
+
+section .wrapper .wrapper__top {
+  width: 450px;
+  height: 350px;
+}
+
+section .wrapper .wrapper__top .top__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .wrapper .wrapper__top .top__container img {
+  width: 129px;
+  margin-bottom: 40px;
+}
+
+section .wrapper .wrapper__top .top__container h2 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+section .wrapper .wrapper__top .top__container button {
+  width: 233px;
+  height: 47px;
+  background-color: #1877f2;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
+
+section .wrapper .wrapper__top .top__container button:hover {
+  width: 240px;
+  height: 50px;
+  font-size: 19px;
+  -webkit-transition: 0.10s;
+  transition: 0.10s;
+}
+
+section .wrapper .wrapper__top .top__container .span__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .wrapper .wrapper__top .top__container .span__text span {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+section .wrapper .wrapper__top .top__container .span__text span a {
+  color: #1db954;
+}
+
+section .wrapper .wrapper__top .top__container .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .wrapper .wrapper__top .top__container .line .line1 {
+  width: 150px;
+  height: 2px;
+  background-color: #000;
+}
+
+section .wrapper .wrapper__top .top__container .line p {
+  margin: 0 20px;
+}
+
+section .wrapper .wrapper__input {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .wrapper .wrapper__input h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+section .wrapper .wrapper__input .add__input {
+  margin-bottom: 20px;
+}
+
+section .wrapper .wrapper__input .add__input p {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+section .wrapper .wrapper__input .add__input input {
+  width: 100%;
+  height: 47px;
+  margin-top: 10px;
+  border: 2px solid #c3c2c2;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+section .wrapper .wrapper__input .add__input input::-webkit-input-placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+section .wrapper .wrapper__input .add__input input:-ms-input-placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+section .wrapper .wrapper__input .add__input input::-ms-input-placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+section .wrapper .wrapper__input .add__input input::placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+section .wrapper .birth {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+section .wrapper .birth input::-webkit-input-placeholder {
+  font-size: 20px;
+}
+
+section .wrapper .birth input:-ms-input-placeholder {
+  font-size: 20px;
+}
+
+section .wrapper .birth input::-ms-input-placeholder {
+  font-size: 20px;
+}
+
+section .wrapper .birth input::placeholder {
+  font-size: 20px;
+}
+
+section .wrapper .birth .month input {
+  width: 190px;
+  height: 47px;
+  border: 2px solid #c3c2c2;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section .wrapper .birth .day input {
+  width: 90px;
+  height: 47px;
+  border: 2px solid #c3c2c2;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section .wrapper .birth .year input {
+  width: 120px;
+  height: 47px;
+  border: 2px solid #c3c2c2;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section .wrapper .radio {
+  width: 75%;
+  height: 30px;
+  font-size: 18px;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+section .wrapper .wrapper__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+section .wrapper .wrapper__bottom .span__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+section .wrapper .wrapper__bottom .span__text span {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+section .wrapper .wrapper__bottom .span__text span a {
+  color: #1db954;
+}
+
+section .wrapper .wrapper__bottom button {
+  width: 151px;
+  height: 51px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: #1ed160;
+}
+
+section .wrapper .wrapper__bottom button:hover {
+  width: 153px;
+  height: 55  px;
+}
+
+section .wrapper .wrapper__bottom p {
+  font-size: 16px;
+}
+
+section .wrapper .wrapper__bottom p a {
+  color: #1db954;
+}
+/*# sourceMappingURL=signup  style.css.map */

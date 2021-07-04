@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+header img {
+  width: 200px;
+  height: 66px;
+}
+
+section {
+  width: 100%;
+  height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .wrapper {
+  width: 450px;
+  height: 700px;
+  margin-top: 40px;
+}
+
+section .wrapper .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .wrapper .buttons p {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+section .wrapper .buttons button {
+  width: 100%;
+  height: 47px;
+  border-radius: 40px;
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+
+section .wrapper .buttons button i {
+  margin-right: 10px;
+}
+
+section .wrapper .buttons .facebook {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+section .wrapper .buttons .apple {
+  background-color: #000;
+  color: #fff;
+}
+
+section .wrapper .buttons .google {
+  background-color: white;
+  color: black;
+}
+
+section .wrapper .buttons .google:hover {
+  background-color: #6b6969;
+  color: white;
+}
+
+section .wrapper .buttons .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 25px;
+}
+
+section .wrapper .buttons .line .line1 {
+  width: 150px;
+  height: 2px;
+  background-color: #000;
+}
+
+section .wrapper .buttons .line p {
+  margin: 0 20px;
+}
+
+section .wrapper .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+section .wrapper .form p {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+section .wrapper .form input {
+  width: 100%;
+  padding-left: 15px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+section .wrapper .form input::-webkit-input-placeholder {
+  padding-left: 15px;
+}
+
+section .wrapper .form input:-ms-input-placeholder {
+  padding-left: 15px;
+}
+
+section .wrapper .form input::-ms-input-placeholder {
+  padding-left: 15px;
+}
+
+section .wrapper .form input::placeholder {
+  padding-left: 15px;
+}
+
+section .wrapper .form a {
+  color: grey;
+  margin-bottom: 20px;
+}
+
+section .wrapper .form .btn {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #000;
+}
+
+section .wrapper .form .btn input {
+  width: 20px;
+}
+
+section .wrapper .form .btn button {
+  width: 170px;
+  height: 40px;
+  border-radius: 40px;
+  margin-left: 160px;
+  background-color: #15883e;
+  color: #fff;
+  font-weight: bolder;
+}
+
+section .wrapper .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .wrapper .bottom h3 {
+  margin: 30px 0;
+}
+
+section .wrapper .bottom button {
+  width: 100%;
+  height: 40px;
+  border-radius: 40px;
+  background-color: white;
+  font-weight: bolder;
+}
+
+section .wrapper .bottom button:hover {
+  background-color: #6b6969;
+  color: white;
+}
+/*# sourceMappingURL=log_style.css.map */
